@@ -46,7 +46,7 @@ for image in \
 	registry.access.redhat.com/openshift3_beta/ose-pod \
 	registry.access.redhat.com/openshift3_beta/ose-sti-builder \
 	openshift/hello-openshift \
-	openshift/ruby-20-centos \
+	openshift/ruby-20-centos7 \
 	mysql; do
   docker pull $image
 done 
